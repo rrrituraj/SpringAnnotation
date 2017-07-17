@@ -1,0 +1,35 @@
+Teacher Class
+variable- 1. Name (should be String)
+		2. TeacherId  (should be number)
+		3.SubjectSk  (should be number)
+		4.College  (should be String)
+	
+Teacher Interface
+Method- Insert()
+		GetTeacher(TeacherId)
+
+Student Class
+variable- 1.StudentId (should be number)
+		2.Name  (should be String)
+		3.ClassTeacher(TeacherId)  (should be number)
+		4.College  (should be String)
+		
+Student Interface
+Method- Insert()
+		GetStudent(StudentId)
+		
+College Class
+variable- 1.Name  (should be String)
+		2.CollegeId  (should be number)
+
+College Interface
+Method- Insert()
+		GetCollege(CollegeId)
+		
+Subject Class
+variable- 1.Name  (should be String)
+		2.SubjectId  (should be number)
+		
+Subject Interface
+Method- Insert()
+		GetSubject(SubjectId)
